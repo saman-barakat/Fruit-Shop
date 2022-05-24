@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Utility {
-    List<Product> products = new ArrayList<Product>();
-    List<Purchase> purchases = new ArrayList<Purchase>();
+    List<Product> products = new ArrayList<>();
+    List<Purchase> purchases = new ArrayList<>();
 
     public List<Product> readProducts(String fileLocation) {
 
