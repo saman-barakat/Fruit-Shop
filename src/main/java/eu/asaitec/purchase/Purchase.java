@@ -6,7 +6,7 @@ public class Purchase {
     private Product product;
     private int quantity;
 
-    public Purchase(Product product, int quantity) {
+    public Purchase(Product product, int quantity) {//
         this.product = new Product(product.getName(),product.getPrice());
         this.quantity = quantity;
     }
