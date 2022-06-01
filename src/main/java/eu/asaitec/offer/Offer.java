@@ -27,15 +27,15 @@ public class Offer {
 
         int productQuantity = getProductQuantity(product, purchases);
 
-
+        // result name is not clear
         Double result = Double.valueOf(productQuantity / xProducts);
-        this.discount += ((result * xProducts * product.getPrice()) - (result * payY * product.getPrice()));
+        int difference = xProducts - payY;
+        this.discount += (result * difference * product.getPrice());
     }
 
     public void reduceXWhenBuyYProducts(Product product, int reduceAmount, int buyYProduct, List<Purchase> purchases) {
 
         int productQuantity = getProductQuantity(product, purchases);
-
 
         Double reduce = (double) (productQuantity / buyYProduct);
         this.discount = this.discount + (reduce * reduceAmount);
@@ -55,8 +55,7 @@ public class Offer {
     private int getProductQuantity(Product product, List<Purchase> purchases) {
 
         for (Purchase p : purchases) {
-            if (p.getProduct().getName().equals(product.getName()))
-                return p.getQuantity();
+            if (p.getProduct().getName().equals(product.getName())) return p.getQuantity();
         }
         return 0;
     }

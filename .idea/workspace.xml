@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776d52f0-c2cf-45c5-8e8b-a2cd9ac81129" name="Changes" comment="Code updated2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/asaitec/offer/Offer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/eu/asaitec/product/ProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/eu/asaitec/purchase/PurchaseTest.java" afterDir="false" />
+    <list default="true" id="776d52f0-c2cf-45c5-8e8b-a2cd9ac81129" name="Changes" comment="Add unit testing">
+      <change afterPath="$PROJECT_DIR$/src/test/java/eu/asaitec/offer/OfferTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/asaitec/fruitshop/manager/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/asaitec/fruitshop/manager/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/asaitec/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/asaitec/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/asaitec/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/asaitec/utility/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/products.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/eu/asaitec/utility/UtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eu/asaitec/utility/UtilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/asaitec/offer/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/asaitec/offer/Offer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,39 +59,57 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="eu.asaitec.offer" />
       <recent name="eu.asaitec.purchase" />
       <recent name="eu.asaitec.product" />
       <recent name="eu.asaitec.utility" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UtilityTest.purchaseProducts">
-    <configuration name="ProductTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OfferTest.reduceXWhenBuyYProducts">
+    <configuration name="OfferTest.getDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruit-Shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eu.asaitec.product.*" />
+          <option name="PATTERN" value="eu.asaitec.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eu.asaitec.product" />
-      <option name="MAIN_CLASS_NAME" value="eu.asaitec.product.ProductTest" />
-      <option name="METHOD_NAME" value="testEquals" />
+      <option name="PACKAGE_NAME" value="eu.asaitec.offer" />
+      <option name="MAIN_CLASS_NAME" value="eu.asaitec.offer.OfferTest" />
+      <option name="METHOD_NAME" value="getDiscount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OfferTest.getFreeProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruit-Shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eu.asaitec.purchase.*" />
+          <option name="PATTERN" value="eu.asaitec.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eu.asaitec.purchase" />
-      <option name="MAIN_CLASS_NAME" value="eu.asaitec.purchase.PurchaseTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="eu.asaitec.offer" />
+      <option name="MAIN_CLASS_NAME" value="eu.asaitec.offer.OfferTest" />
+      <option name="METHOD_NAME" value="getFreeProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfferTest.reduceXWhenBuyYProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruit-Shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.asaitec.offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.asaitec.offer" />
+      <option name="MAIN_CLASS_NAME" value="eu.asaitec.offer.OfferTest" />
+      <option name="METHOD_NAME" value="reduceXWhenBuyYProducts" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,22 +125,6 @@
       <option name="PACKAGE_NAME" value="eu.asaitec.utility" />
       <option name="MAIN_CLASS_NAME" value="eu.asaitec.utility.UtilityTest" />
       <option name="METHOD_NAME" value="purchaseProducts" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilityTest.testFileInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Fruit-Shop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eu.asaitec.utility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="eu.asaitec.utility" />
-      <option name="MAIN_CLASS_NAME" value="eu.asaitec.utility.UtilityTest" />
-      <option name="METHOD_NAME" value="testFileInputStream" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OfferTest.reduceXWhenBuyYProducts" />
+        <item itemvalue="JUnit.OfferTest.getFreeProducts" />
+        <item itemvalue="JUnit.OfferTest.getDiscount" />
         <item itemvalue="JUnit.UtilityTest.purchaseProducts" />
         <item itemvalue="JUnit.UtilityTest.testReadProducts" />
-        <item itemvalue="JUnit.UtilityTest.testFileInputStream" />
-        <item itemvalue="JUnit.PurchaseTest" />
-        <item itemvalue="JUnit.ProductTest.testEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653413782247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Offers have been applied">
+      <created>1654097943529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654097943530</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add unit testing">
+      <created>1654098010208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654098010208</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +218,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Code updated" />
     <MESSAGE value="Code updated2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code updated2" />
+    <MESSAGE value="Offers have been applied" />
+    <MESSAGE value="Add unit testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unit testing" />
   </component>
 </project>
