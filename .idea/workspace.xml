@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776d52f0-c2cf-45c5-8e8b-a2cd9ac81129" name="Changes" comment="Code updated">
+    <list default="true" id="776d52f0-c2cf-45c5-8e8b-a2cd9ac81129" name="Changes" comment="Code updated2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/asaitec/offer/Offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eu/asaitec/product/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/eu/asaitec/purchase/PurchaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/asaitec/fruitshop/manager/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/asaitec/fruitshop/manager/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/asaitec/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/asaitec/product/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/asaitec/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/asaitec/utility/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/eu/asaitec/utility/UtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/eu/asaitec/utility/UtilityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +49,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SB/Fruit-Shop/src/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SB/Fruit-Shop/src/main/java/eu/asaitec/offer&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SB\Fruit-Shop\src\main\java\eu\asaitec\offer" />
       <recent name="C:\SB\Fruit-Shop\src\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -58,20 +65,98 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="eu.asaitec.purchase" />
+      <recent name="eu.asaitec.product" />
       <recent name="eu.asaitec.utility" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eu.asaitec.fruitshop.manager.main" />
+  <component name="RunManager" selected="JUnit.UtilityTest.purchaseProducts">
+    <configuration name="ProductTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fruit-Shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.asaitec.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.asaitec.product" />
+      <option name="MAIN_CLASS_NAME" value="eu.asaitec.product.ProductTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurchaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruit-Shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.asaitec.purchase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.asaitec.purchase" />
+      <option name="MAIN_CLASS_NAME" value="eu.asaitec.purchase.PurchaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilityTest.purchaseProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruit-Shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.asaitec.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.asaitec.utility" />
+      <option name="MAIN_CLASS_NAME" value="eu.asaitec.utility.UtilityTest" />
+      <option name="METHOD_NAME" value="purchaseProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilityTest.testFileInputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruit-Shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.asaitec.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.asaitec.utility" />
+      <option name="MAIN_CLASS_NAME" value="eu.asaitec.utility.UtilityTest" />
+      <option name="METHOD_NAME" value="testFileInputStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilityTest.testReadProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fruit-Shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.asaitec.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.asaitec.utility" />
+      <option name="MAIN_CLASS_NAME" value="eu.asaitec.utility.UtilityTest" />
+      <option name="METHOD_NAME" value="testReadProducts" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.UtilityTest.purchaseProducts" />
+        <item itemvalue="JUnit.UtilityTest.testReadProducts" />
+        <item itemvalue="JUnit.UtilityTest.testFileInputStream" />
+        <item itemvalue="JUnit.PurchaseTest" />
+        <item itemvalue="JUnit.ProductTest.testEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653304208334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Code updated">
+      <created>1653413756195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653413756195</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Code updated2">
+      <created>1653413782247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653413782247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Code updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code updated" />
+    <MESSAGE value="Code updated2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code updated2" />
   </component>
 </project>

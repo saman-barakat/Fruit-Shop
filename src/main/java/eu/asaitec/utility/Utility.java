@@ -18,6 +18,7 @@ public class Utility {
         try {
             //the file to be opened for reading
             FileInputStream fis = new FileInputStream(fileLocation);
+
             Scanner sc = new Scanner(fis);    //file to be scanned
             //returns true if there is another line to read
             while (sc.hasNextLine()) {
@@ -58,7 +59,7 @@ public class Utility {
         }
     }
 
-    private Product getProductByName(String name) {
+    public Product getProductByName(String name) {
         for (Product p : products) {
             if (p.getName().equals(name))
                 return p;
@@ -66,23 +67,27 @@ public class Utility {
         return null;
     }
 
-    public void totalPrice(List<Purchase> purchases) {
+    public void totalPrice(List<Purchase> purchases, Double discount) {
         double total = 0;
+        System.out.println("--------------------------------------------------------------------------");
         for (Purchase purchase : purchases) {
             Product p = purchase.getProduct();
             int quantity = purchase.getQuantity();
 
-            // Apply offers
-
             double price = p.getPrice() * quantity;
 
-            System.out.println("Product: " + p.getName() + "Product Price : " + p.getPrice() + " Quantity: " + quantity + " Price: " + price);
+            System.out.println("Product name: " + p.getName()
+                    + " | Product Price: " + p.getPrice()
+                    + " | Quantity: " + quantity
+                    + " | Price: " + price);
 
             total = total + price;
 
-
         }
+        System.out.println("--------------------------------------------------------------------------");
         System.out.println("Total price: " + total);
+        System.out.println("Discount:: " + discount);
+        System.out.println("Final Price:: " + (total - discount));
 
 
     }
